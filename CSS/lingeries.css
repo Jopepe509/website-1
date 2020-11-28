@@ -1,0 +1,85 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.col-100 {
+    background-color: red;
+}
+
+.header-2 {
+    background-color: red;
+    width: 100%;
+    height: 48px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.texto {
+    width: 70%;
+    float: left;
+    font-size: 7px;
+    font-family: cursive;
+    margin-top: 20px;
+    margin-left: 0;
+}
+
+.cabecalho {
+    height: 80px;
+    border-bottom: 3px solid black;
+}
+
+.busca {
+    width: 30%;
+    float: right;
+    margin-top: 0;
+}
+.busca input {
+    background-image: url(../img/icone-search.png);
+    background-repeat: no-repeat;
+    height: 10px;
+    padding: 12px;
+    width: 180px;
+    margin-top: 20px;
+    background-position: 96%;
+    border: 1px solid black;
+    float: right;
+    margin-right: 250px;
+}
+
+.menu-redes-sociais {
+    background-color: whitesmoke;
+    height: 40px;
+    padding: 10px;
+}
+
+.menu ul li {
+    display: inline-block;
+    color: black;
+    margin-left: 15px;
+    height: 50px;
+}
+
+.menu ul li:hover {
+    border-bottom: 3px dashed #00bac6;
+}
+
+.menu ul {
+    text-align: center;
+    margin: 1px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu ul li a:hover {
+    color: #00bac6;
+    
+}
+
+.menu ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: normal;
+}
