@@ -134,6 +134,11 @@ body {
     text-transform: normal;
 }
 
+.bdsm-texto a {
+    text-decoration: none;
+    color: black;
+}
+
 h1 {
     text-align: center;
     font-family: cursive;
@@ -165,6 +170,11 @@ h1 {
     text-transform: normal;
 }
 
+.vibradores-texto a {
+    text-decoration: none;
+    color: black;
+}
+
 .mastubadores-imagem img {
     display: inline;
     justify-content: space-evenly;
@@ -184,6 +194,11 @@ h1 {
     justify-content: space-around;
     margin-left: 140px;
     text-transform: normal;
+}
+
+.mastubadores-texto a {
+    text-decoration: none;
+    color: black;
 }
 
 .lingeries-imagem img {
@@ -207,6 +222,11 @@ h1 {
     text-transform: normal;
 }
 
+.lingeries-texto a {
+    text-decoration: none;
+    color: black;
+}
+
 .fantasias-imagem img {
     display: inline;
     justify-content: space-evenly;
@@ -219,6 +239,11 @@ h1 {
     justify-content: space-around;
     margin-left: 150px;
     text-transform: normal;
+}
+
+.fantasias-texto a {
+    text-decoration: none;
+    color: black;
 }
 
 .fantasias-precos {

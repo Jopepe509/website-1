@@ -83,3 +83,48 @@ body {
     font-size: 18px;
     text-transform: normal;
 }
+
+.v1 img {
+    display: inline;
+    justify-content: space-evenly;
+    margin-left: 240px;
+    width: 150px;
+}
+
+.v1-preco {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 90px;
+    text-transform: normal;
+}
+
+.v1-preco input {
+    text-align: center;
+    background-color: none;
+    background-image: url(../img/cart.png);
+    background-repeat: no-repeat;
+    border: black;
+    border-radius: 5px;
+}
+
+
+.v2 img {
+    display: inline;
+    justify-content: space-evenly;
+    margin-left: 240px;
+    width: 150px;
+}
+
+.v3 img {
+    display: inline;
+    justify-content: space-evenly;
+    margin-left: 240px;
+    width: 150px;
+}
+
+.v4 img {
+    display: inline;
+    justify-content: space-evenly;
+    margin-left: 240px;
+    width: 150px;
+}
