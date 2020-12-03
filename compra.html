@@ -39,13 +39,76 @@
                     <a href="file:///C:/Users/joven/Desktop/Lechateaudebeaute/cadastro.html">Cadastro</a>
                 </li>
                 <li>
-                    <a href="file:///C:/Users/joven/Desktop/Lechateaudebeaute/compra.html">Compras</a>
-                </li>
-                <li>
                     <a href="file:///C:/Users/joven/Desktop/Lechateaudebeaute/contato.html">Contato e sobre nós</a>
                 </li>
             </ul>
         </div>
     </main>
+    <div class="compra">
+        <div class="cores">
+            <h2>Cor</h2>
+            <select name="cores" id="cores">
+                <option value=""><plaintext>Escolha uma cor</plaintext></option>
+                <option value="">Normal</option>
+                <option value="">Rosa</option>
+                <option value="">Vermelha</option>
+                <option value="">Preta</option>
+                <option value="">Branca</option>
+                <option value="">Amarela</option>
+                <option value="">Azul</option>
+            </select>
+        </div>
+        <div class="quantidade">
+            <h3>Quantidade</h3>
+            <input type="number" name="quantidade" min="1" max="100" id="quantidade">
+        </div>
+        <div class="pagamento">
+            <h1>Pagamento</h1>
+            <h2>Conta</h2>
+            <div class="half-box nome">
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" required="name" placeholder="Digite seu nome">
+            </div>
+            <div class="half-box nome">
+                <label for="lastname">Sobrenome</label>
+                <input type="text" name="lastname" id="lastname" required="lastname" placeholder="Digite seu sobrenome">
+            </div>
+            <div class="full-box email">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required="email" placeholder="Digite seu email">
+            </div>
+            <div class="half-box data">
+                <h1>Data de nascimento</h1>
+                <input type="number" min="1" max="31" placeholder="Dia" required="Data">
+                <input type="text" placeholder="Mês" required="Data">
+                <input type="number" min="1800" max="2002" placeholder="Ano" required="Data">
+            </div>
+            <div class="half-box spacing">
+                <h2>Gênero</h2>
+                <input type="radio" name="genero" id="g1" checked="radio">
+                <label for="g1">Masculino</label>
+                <input type="radio" name="genero" id="g2" checked="radio">
+                <label for="g2">Feminino</label>
+            </div>
+            <div class="full-box">
+                <h2>Detalhes de pagamento</h2>
+                <input type="checkbox" name="genero" id="d1" checked="radio">
+                <label for="d1">Cartão de crédito</label>
+                <input type="checkbox" name="genero" id="d2" checked="radio">
+                <label for="d2">Paypal</label>
+            </div>
+            <div class="full-box">
+                <input type="tel" placeholder="Número do cartão">
+            </div>
+            <div class="half-box spacing">
+                <input type="tel" placeholder="CVC">
+            </div>
+        </div>
+        <div class="enviar">
+            <a href="file:///C:/Users/joven/Desktop/Lechateaudebeaute/pagamento.html">
+                <input type="submit" name="enviar" id="enviar" value="Comprar">
+            </a>
+        </div>
+    </div>
 </body>
 </html>

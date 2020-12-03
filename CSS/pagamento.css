@@ -1,0 +1,17 @@
+body {
+    background-image: url(../IMG/logo.png);
+}
+
+body h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+body h2 {
+    text-align: center;
+}
+
+body a {
+    text-decoration: none;
+    text-transform: uppercase;
+}

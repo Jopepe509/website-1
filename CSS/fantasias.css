@@ -83,3 +83,119 @@ body {
     font-size: 18px;
     text-transform: normal;
 }
+
+.f1 img {
+    display: inline;
+    justify-content: space-evenly;
+    margin-left: 260px;
+    width: 150px;
+}
+
+.f1-texto {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 140px;
+    text-transform: normal;
+}
+
+.f1-preco {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 90px;
+    text-transform: normal;
+}
+
+.f1-preco input {
+    text-align: center;
+    background-color: #008000;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
+.f2 img {
+    display: inline;
+    justify-content: space-evenly;
+    margin-left: 260px;
+    width: 150px;
+}
+
+.f2-texto {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 140px;
+    text-transform: normal;
+}
+.f2-preco {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 90px;
+    text-transform: normal;
+}
+
+.f2-preco input {
+    text-align: center;
+    background-color: #008000;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.f3 img {
+    display: inline;
+    justify-content: space-evenly;
+    margin-left: 260px;
+    width: 150px;
+}
+
+.f3-texto {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 140px;
+    text-transform: normal;
+}
+
+.f3-preco {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 90px;
+    text-transform: normal;
+}
+
+.f3-preco input {
+    text-align: center;
+    background-color: #008000;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.f4 img {
+    display: inline;
+    justify-content: space-evenly;
+    margin-left: 260px;
+    width: 150px;
+}
+
+.f4-texto {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 140px;
+    text-transform: normal;
+}
+
+.f4-preco {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 90px;
+    text-transform: normal;
+}
+
+.f4-preco input {
+    text-align: center;
+    background-color: #008000;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    border-radius: 5px;
+}
